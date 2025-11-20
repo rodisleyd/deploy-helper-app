@@ -1,0 +1,5 @@
+{
+  "name": "Assistente de Deploy",
+  "description": "Um assistente alimentado por IA que gera guias de deploy passo a passo e arquivos de configuração para seus projetos de software.",
+  "requestFramePermissions": []
+}
