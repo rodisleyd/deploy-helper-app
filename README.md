@@ -1,3 +1,4 @@
+ HEAD
 # Deploy Wizard MVP
 
 This is a React-based "Deployment Assistant" that uses the Google Gemini API to generate custom deployment guides for developers.
@@ -57,3 +58,6 @@ Since this is a client-side SPA:
 1.  Run `npm run build`.
 2.  Upload the `dist/` folder to Vercel/Netlify.
 3.  **Crucial**: Add your `API_KEY` as an environment variable in the Vercel/Netlify dashboard.
+
+# deploy-helper-app
+Aplicativo para ajudar no deploy de projetos
