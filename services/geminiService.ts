@@ -2,7 +2,10 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { Project, DeployPlan } from "../types";
 
 // Initialize Gemini
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenerativeAI({
+  apiKey: import.meta.env.VITE_API_KEY as string,
+});
+
 
 // Schema definition for the structured output
 const configFileSchema: Schema = {
