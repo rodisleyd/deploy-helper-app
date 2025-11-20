@@ -2,7 +2,7 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { Project, DeployPlan } from "../types";
 
 // Initialize Gemini
-const ai = new GoogleGenerativeAI({
+const ai = new GoogleGenAI({
   apiKey: import.meta.env.VITE_API_KEY as string,
 });
 
